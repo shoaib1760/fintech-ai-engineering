@@ -19,6 +19,9 @@ dependencies = [
     "nbformat>=5.9.0",
 ]
 
+[tool.uv]
+package = false
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
